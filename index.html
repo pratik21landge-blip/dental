@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minakshi Multispeciality Dental Clinic & Implant Centre | Saswad Road, Kondhwa, Pune</title>
+  <meta name="description" content="Minakshi Multispeciality Dental Clinic & Implant Centre on Saswad Road, Kondhwa, Pune. Providing computerized X-ray, root canal, single-sitting RCT, implants, braces, dentures, scaling and extraction. Call +91 99752 02188.">
+  <meta name="keywords" content="Minakshi Dental Clinic, Dental Clinic Kondhwa Pune, Dentist Saswad Road, Dr Nikhil Kadam, Dr Minakshi Dhage Kadam, Single Sitting RCT Pune, Dental Implants Kondhwa">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            },
+            tealbrand: {
+              50: '#f0fdfa',
+              100: '#ccfbf1',
+              600: '#0d9488',
+              700: '#0f766e',
+            }
+          },
+          fontFamily: {
+            sans: ['"Inter"', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-50 text-slate-700 antialiased selection:bg-brand-600 selection:text-white">
+
+  <!-- ================= TOP CONTACT BAR ================= -->
+  <div class="bg-brand-900 text-slate-100 text-xs py-2 px-4 border-b border-brand-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
+        <span class="flex items-center gap-1.5 text-tealbrand-100 font-medium">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-teal-400"></i>
+          Shop No. 03, Near Purandar Medical, Near Angraj Dhaba, Saswad Road, Kondhwa, Pune - 411048
+        </span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:+919975202188" class="hover:text-white flex items-center gap-1 font-semibold text-teal-300">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5"></i>
+          +91 99752 02188
+        </a>
+        <span class="hidden md:inline text-slate-400">|</span>
+        <span class="text-slate-300 hidden md:inline">Mon–Sat: 10AM–2PM, 5PM–9PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= HEADER NAVIGATION ================= -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-brand-700 to-tealbrand-600 text-white flex items-center justify-center shadow-md">
+          <i data-lucide="stethoscope" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight block leading-tight">MINAKSHI</span>
+          <span class="text-xs uppercase tracking-wider text-brand-600 font-bold block">Multispeciality Dental Clinic</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-600">
+        <a href="#about" class="hover:text-brand-600 transition-colors">About Clinic</a>
+        <a href="#doctors" class="hover:text-brand-600 transition-colors">Specialists</a>
+        <a href="#gallery" class="hover:text-brand-600 transition-colors">Clinic Tour</a>
+        <a href="#services" class="hover:text-brand-600 transition-colors">Treatments</a>
+        <a href="#timings" class="hover:text-brand-600 transition-colors">Timings</a>
+        <a href="#location" class="hover:text-brand-600 transition-colors">Location</a>
+        <a href="#book" class="hover:text-brand-600 transition-colors">Book Visit</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="https://wa.me/919975202188?text=Hello%20Minakshi%20Dental%20Clinic,%20I%20would%20like%20to%20inquire%20about%20a%20dental%20appointment." target="_blank" class="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-medium text-xs flex items-center gap-1.5 shadow-sm transition-all">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>WhatsApp</span>
+        </a>
+        <a href="tel:+919975202188" class="px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-medium text-xs flex items-center gap-1.5 shadow-sm transition-all">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          <span>Call Now</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button id="mobileNavToggle" aria-label="Toggle navigation" class="md:hidden p-2 text-slate-700 hover:bg-slate-100 rounded-lg">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t border-slate-100 px-6 py-4 space-y-3">
+      <a href="#about" class="block font-medium text-slate-700 hover:text-brand-600 py-1 mobile-link">About Clinic</a>
+      <a href="#doctors" class="block font-medium text-slate-700 hover:text-brand-600 py-1 mobile-link">Our Specialists</a>
+      <a href="#gallery" class="block font-medium text-slate-700 hover:text-brand-600 py-1 mobile-link">Clinic Photos</a>
+      <a href="#services" class="block font-medium text-slate-700 hover:text-brand-600 py-1 mobile-link">Treatments & Services</a>
+      <a href="#timings" class="block font-medium text-slate-700 hover:text-brand-600 py-1 mobile-link">Clinic Timings</a>
+      <a href="#location" class="block font-medium text-slate-700 hover:text-brand-600 py-1 mobile-link">Location</a>
+      <a href="#book" class="block font-medium text-slate-700 hover:text-brand-600 py-1 mobile-link">Book Appointment</a>
+      <div class="pt-2 flex flex-col gap-2">
+        <a href="tel:+919975202188" class="w-full text-center py-2.5 rounded-xl bg-brand-600 text-white font-semibold text-sm">Call +91 99752 02188</a>
+        <a href="https://wa.me/919975202188" target="_blank" class="w-full text-center py-2.5 rounded-xl bg-emerald-600 text-white font-semibold text-sm">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="relative bg-gradient-to-b from-brand-50 via-white to-slate-50 py-12 md:py-20 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-5">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold bg-brand-100 text-brand-800 border border-brand-200">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>Multispeciality Dental Clinic & Implant Centre &bull; ISO 9001:2015</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+            Gentle, Advanced & Affordable Dental Care on <span class="text-brand-600">Saswad Road, Kondhwa</span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed">
+            Welcome to <strong>Minakshi Multispeciality Dental Clinic & Implant Centre</strong> ("मीनाक्षी दातांचा दवाखाना"). We provide painless, comprehensive oral healthcare with modern equipment, computerized X-rays, strict sterilization, and personalized patient care for the entire family in Pune.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-wrap items-center gap-3 pt-2">
+            <a href="tel:+919975202188" class="px-6 py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition-all flex items-center gap-2">
+              <i data-lucide="phone-call" class="w-4 h-4"></i>
+              <span>Call: +91 99752 02188</span>
+            </a>
+            <a href="https://wa.me/919975202188?text=Hello,%20I%20want%20to%20book%20a%20dental%20appointment%20at%20Minakshi%20Dental%20Clinic." target="_blank" class="px-5 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition-all flex items-center gap-2">
+              <i data-lucide="message-square" class="w-4 h-4"></i>
+              <span>Book via WhatsApp</span>
+            </a>
+            <a href="#book" class="px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-semibold text-sm transition-all flex items-center gap-2">
+              <i data-lucide="calendar" class="w-4 h-4 text-brand-600"></i>
+              <span>Online Appointment</span>
+            </a>
+          </div>
+
+          <!-- Quick Badges -->
+          <div class="pt-6 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+            <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+              <p class="text-base font-extrabold text-brand-700">ISO 9001:2015</p>
+              <p class="text-xs text-slate-500 font-medium">Certified Clinic</p>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+              <p class="text-base font-extrabold text-brand-700">Pain-Free</p>
+              <p class="text-xs text-slate-500 font-medium">Gentle Treatments</p>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+              <p class="text-base font-extrabold text-brand-700">Digital RVG</p>
+              <p class="text-xs text-slate-500 font-medium">Computerized X-ray</p>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
+              <p class="text-base font-extrabold text-brand-700">Affordable</p>
+              <p class="text-xs text-slate-500 font-medium">Transparent Pricing</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Card -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-200 space-y-5">
+            <div class="flex items-center gap-3 pb-4 border-b border-slate-100">
+              <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center">
+                <i data-lucide="clock" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h2 class="text-base font-bold text-slate-900">Clinic Working Hours</h2>
+                <p class="text-xs text-slate-500">Visit us during open OPD hours</p>
+              </div>
+            </div>
+
+            <div class="space-y-3 text-xs">
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex justify-between items-center">
+                <span class="font-bold text-slate-800">Monday to Saturday</span>
+                <span class="px-2 py-1 rounded bg-emerald-100 text-emerald-800 font-semibold text-[11px]">Open Today</span>
+              </div>
+              <div class="grid grid-cols-2 gap-2 text-center">
+                <div class="p-2.5 rounded-lg bg-brand-50 border border-brand-100">
+                  <p class="text-[11px] text-slate-500 font-medium">Morning Shift</p>
+                  <p class="text-xs font-bold text-brand-900">10:00 AM – 2:00 PM</p>
+                </div>
+                <div class="p-2.5 rounded-lg bg-brand-50 border border-brand-100">
+                  <p class="text-[11px] text-slate-500 font-medium">Evening Shift</p>
+                  <p class="text-xs font-bold text-brand-900">5:00 PM – 9:00 PM</p>
+                </div>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex justify-between items-center">
+                <span class="font-bold text-slate-800">Sunday</span>
+                <span class="text-xs text-slate-500 font-medium">Closed / By Appointment</span>
+              </div>
+            </div>
+
+            <!-- Landmark & Address box -->
+            <div class="p-3.5 rounded-xl bg-tealbrand-50 border border-tealbrand-100 text-xs text-slate-700 space-y-1">
+              <p class="font-bold text-tealbrand-700 flex items-center gap-1">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+                Location Landmark
+              </p>
+              <p>Shop No. 03, Near Purandar Medical, Near Angraj Dhaba, Next to Khadimachin Chowk, Saswad Road, Kondhwa, Pune - 411048</p>
+            </div>
+
+            <a href="#book" class="block w-full py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-center text-xs shadow-md transition-all">
+              Book Doctor Consultation Online &darr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section id="about" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      
+      <!-- Clinic Overview -->
+      <div class="max-w-3xl mx-auto text-center space-y-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 uppercase tracking-wider">
+          <i data-lucide="award" class="w-3.5 h-3.5 text-brand-600"></i>
+          <span>An ISO 9001:2015 Certified Dental Clinic</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">
+          About Minakshi Multispeciality Dental Clinic
+        </h2>
+        <p class="text-base font-semibold text-brand-700">
+          "मीनाक्षी दातांचा दवाखाना" — We Cares Your Smile
+        </p>
+        <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+          At <strong>Minakshi Multispeciality Dental Clinic & Implant Centre</strong>, we are committed to delivering high-quality, comprehensive oral healthcare in a patient-friendly, hygienic environment. Located on Saswad Road (near Purandar Medical and Angraj Dhaba) in Kondhwa / Yewalewadi, Pune, our clinic provides both routine dental hygiene care and specialized surgical dental procedures with the highest clinical standards.
+        </p>
+      </div>
+
+      <!-- Key Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center mb-4">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-slate-900">Strict Sterilization Protocol</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Patient safety is paramount. We follow rigorous hospital-grade autoclaving and instrument sterilization protocol in an ISO 9001:2015 certified environment.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center mb-4">
+            <i data-lucide="heart-pulse" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-slate-900">Gentle & Painless Procedures</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            From single-sitting root canals to gentle tooth extractions, we use modern techniques to ensure a comfortable, anxiety-free dental experience.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center mb-4">
+            <i data-lucide="indian-rupee" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-slate-900">Affordable & Honest Care</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Transparent consultations with zero hidden fees. Fair pricing designed to make multispeciality dental health accessible for every family.
+          </p>
+        </div>
+      </div>
+
+      <!-- Doctors Profile Section -->
+      <div id="doctors" class="bg-gradient-to-br from-brand-50/70 via-slate-50 to-tealbrand-50/50 rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-sm">
+        <div class="text-center max-w-2xl mx-auto mb-8">
+          <span class="px-3 py-1 rounded-full text-xs font-bold bg-white text-brand-800 border border-brand-200 uppercase tracking-wider">
+            Our Dental Specialists
+          </span>
+          <h3 class="text-2xl font-bold text-slate-900 mt-2">
+            Meet Your Qualified Dental Surgeons
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 mt-1">
+            Certified dental professionals registered with the Maharashtra State Dental Council.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <!-- Doctor 1 -->
+          <div class="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div class="flex items-start gap-4">
+              <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-brand-600 to-tealbrand-600 text-white flex items-center justify-center shrink-0 shadow-md">
+                <i data-lucide="user-check" class="w-7 h-7"></i>
+              </div>
+              <div class="space-y-1">
+                <h4 class="text-lg font-extrabold text-slate-900">Dr. Nikhil N. Kadam</h4>
+                <p class="text-xs font-bold text-brand-600 uppercase tracking-wide">B.D.S. &bull; Dental Surgeon</p>
+                <span class="inline-block px-2.5 py-0.5 rounded bg-slate-100 text-slate-700 text-[11px] font-semibold">
+                  Reg. No: A-31896
+                </span>
+                <p class="text-xs text-slate-600 pt-2 leading-relaxed">
+                  Specialized in advanced root canal treatment (RCT), painless surgical extractions, dental crowns, and restorative care with years of clinical expertise.
+                </p>
+              </div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500 font-medium">Consultation Available</span>
+              <a href="#book" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                <span>Book Visit</span> &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Doctor 2 -->
+          <div class="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div class="flex items-start gap-4">
+              <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-tealbrand-600 to-brand-600 text-white flex items-center justify-center shrink-0 shadow-md">
+                <i data-lucide="user-check" class="w-7 h-7"></i>
+              </div>
+              <div class="space-y-1">
+                <h4 class="text-lg font-extrabold text-slate-900">Dr. (Mrs) Minakshi Dhage - Kadam</h4>
+                <p class="text-xs font-bold text-tealbrand-700 uppercase tracking-wide">B.D.S., M.P.H. Nutrition</p>
+                <span class="inline-block px-2.5 py-0.5 rounded bg-slate-100 text-slate-700 text-[11px] font-semibold">
+                  Reg. No: A-29609
+                </span>
+                <p class="text-xs text-slate-600 pt-2 leading-relaxed">
+                  Expertise in comprehensive family dentistry, preventive hygiene, pediatric dental care, oral health nutrition, and cosmetic smile care.
+                </p>
+              </div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-[11px] text-slate-500 font-medium">Consultation Available</span>
+              <a href="#book" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                <span>Book Visit</span> &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real Clinic Photos Gallery -->
+      <div id="gallery" class="space-y-6">
+        <div class="text-center max-w-2xl mx-auto">
+          <span class="px-3 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 uppercase tracking-wider">
+            Clinic Tour & Real Gallery
+          </span>
+          <h3 class="text-2xl font-bold text-slate-900 mt-2">
+            Inside Minakshi Dental Clinic
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 mt-1">
+            A look inside our modern facility, operatory chairs, and clean sterilization setup.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Photo 1: Signboard / Entrance -->
+          <div class="group bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all flex flex-col">
+            <div class="h-64 overflow-hidden relative">
+              <img src="images/clinic-signboard.png" alt="Minakshi Dental Clinic Front Signboard and Entrance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              <span class="absolute top-3 left-3 bg-brand-900/90 backdrop-blur-sm text-white px-2.5 py-1 rounded-lg text-[11px] font-bold">
+                Front Entrance
+              </span>
+            </div>
+            <div class="p-4 bg-white flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Main Clinic Signboard</h4>
+                <p class="text-xs text-slate-600 mt-1">
+                  Prominent glowing signboard on Saswad Road showing doctor registrations and clinic timings.
+                </p>
+              </div>
+              <p class="text-[11px] font-semibold text-brand-600 mt-3 flex items-center gap-1">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                Saswad Road Landmark
+              </p>
+            </div>
+          </div>
+
+          <!-- Photo 2: Doctor Treating Patient -->
+          <div class="group bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all flex flex-col">
+            <div class="h-64 overflow-hidden relative">
+              <img src="images/doctor-treating-patient.png" alt="Doctor treating patient at Minakshi Dental Clinic" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              <span class="absolute top-3 left-3 bg-emerald-700/90 backdrop-blur-sm text-white px-2.5 py-1 rounded-lg text-[11px] font-bold">
+                Clinical Care
+              </span>
+            </div>
+            <div class="p-4 bg-white flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Gentle Patient Treatment</h4>
+                <p class="text-xs text-slate-600 mt-1">
+                  Dr. Nikhil Kadam administering careful, pain-free dental procedure with full PPE and protective illumination.
+                </p>
+              </div>
+              <p class="text-[11px] font-semibold text-emerald-600 mt-3 flex items-center gap-1">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                Hygienic & Pain-Free
+              </p>
+            </div>
+          </div>
+
+          <!-- Photo 3: Operatory 1 -->
+          <div class="group bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all flex flex-col">
+            <div class="h-64 overflow-hidden relative">
+              <img src="images/dental-operatory-1.jpg" alt="Modern Dental Operatory and Tulja Dental Chair" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              <span class="absolute top-3 left-3 bg-brand-900/90 backdrop-blur-sm text-white px-2.5 py-1 rounded-lg text-[11px] font-bold">
+                Dental Operatory
+              </span>
+            </div>
+            <div class="p-4 bg-white flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Modern Dental Operatory Suite</h4>
+                <p class="text-xs text-slate-600 mt-1">
+                  Equipped with motorized Tulja dental chairs, LED operatory lighting, and soothing green decor for patient relaxation.
+                </p>
+              </div>
+              <p class="text-[11px] font-semibold text-brand-600 mt-3 flex items-center gap-1">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                Modern Equipment
+              </p>
+            </div>
+          </div>
+
+          <!-- Photo 4: Waiting Area & Reception -->
+          <div class="group bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all flex flex-col">
+            <div class="h-64 overflow-hidden relative">
+              <img src="images/waiting-area.png" alt="ISO 9001:2015 Certified Waiting Area and Reception" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              <span class="absolute top-3 left-3 bg-amber-700/90 backdrop-blur-sm text-white px-2.5 py-1 rounded-lg text-[11px] font-bold">
+                ISO Certified
+              </span>
+            </div>
+            <div class="p-4 bg-white flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Waiting Lounge & Doctor Cabin</h4>
+                <p class="text-xs text-slate-600 mt-1">
+                  Airy reception area with ISO 9001:2015 accreditation, comfortable seating, and dedicated doctor consultation cabin.
+                </p>
+              </div>
+              <p class="text-[11px] font-semibold text-amber-600 mt-3 flex items-center gap-1">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                Comfortable Lounge
+              </p>
+            </div>
+          </div>
+
+          <!-- Photo 5: Operatory 2 -->
+          <div class="group bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all flex flex-col">
+            <div class="h-64 overflow-hidden relative">
+              <img src="images/dental-operatory-2.png" alt="Clinical operatory and consultation setup" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              <span class="absolute top-3 left-3 bg-brand-900/90 backdrop-blur-sm text-white px-2.5 py-1 rounded-lg text-[11px] font-bold">
+                Dual Chair Setup
+              </span>
+            </div>
+            <div class="p-4 bg-white flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Multi-Chair Setup & Digital Workstation</h4>
+                <p class="text-xs text-slate-600 mt-1">
+                  Dual dental operatory units, computerized digital diagnosis, ultrasonic scaler, and clean sterilization station.
+                </p>
+              </div>
+              <p class="text-[11px] font-semibold text-brand-600 mt-3 flex items-center gap-1">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                Fast & Efficient Care
+              </p>
+            </div>
+          </div>
+
+          <!-- Photo 6: Visiting Card -->
+          <div class="group bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all flex flex-col">
+            <div class="h-64 overflow-hidden relative">
+              <img src="images/visiting-card.jpg" alt="Minakshi Dental Clinic Visiting Card Services" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              <span class="absolute top-3 left-3 bg-rose-700/90 backdrop-blur-sm text-white px-2.5 py-1 rounded-lg text-[11px] font-bold">
+                Official Card
+              </span>
+            </div>
+            <div class="p-4 bg-white flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Official Clinical Services Card</h4>
+                <p class="text-xs text-slate-600 mt-1">
+                  Verified clinical services list and contact details for both Katraj and Kondhwa Saswad Road clinics.
+                </p>
+              </div>
+              <p class="text-[11px] font-semibold text-rose-600 mt-3 flex items-center gap-1">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                Verified Clinic Services
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SERVICES SECTION ================= -->
+  <section id="services" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mx-auto text-center space-y-3 mb-12">
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 uppercase tracking-wider">
+          Services Provided
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">
+          Our Complete Dental Treatments
+        </h2>
+        <p class="text-sm text-slate-600">
+          Official treatments and clinical procedures offered at Minakshi Multispeciality Dental Clinic & Implant Centre.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        
+        <!-- Service 1: Computerized X-ray -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center mb-3">
+              <i data-lucide="scan" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Computerized X-ray</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Ultra-low radiation digital RVG computerized radiography providing instant, high-definition diagnostics of teeth, roots, and jawbone structure.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Computerized X-ray')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Digital X-ray</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 2: Dental Implants -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-3">
+              <i data-lucide="shield" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Dental Implants</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Permanent titanium screw posts anchored safely into bone to replace missing teeth, restoring complete chewing ability and natural smile aesthetics.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Dental Implants')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Implant Consult</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 3: Complete Denture -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center mb-3">
+              <i data-lucide="smile" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Complete Denture</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Custom-crafted full upper and lower arch dentures engineered for optimal facial support, comfortable gum suction fit, and confident eating.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Complete Denture')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Denture Consult</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 4: Fix Partial Denture -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center mb-3">
+              <i data-lucide="crown" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Fix Partial Denture (FPD)</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Fixed ceramic and metal dental bridges permanently anchored to adjacent teeth, eliminating the hassle of removable partial dentures.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Fix Partial Denture')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Fix Partial Denture</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 5: Root Canal Treatment (RCT) -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-red-100 text-red-700 flex items-center justify-center mb-3">
+              <i data-lucide="zap" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Root Canal Treatment (RCT)</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Gentle endodontic treatment removing damaged or infected nerve tissue, disinfecting root canals, and sealing the tooth to prevent extraction.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Root Canal Treatment (RCT)')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book RCT Consult</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 6: Single Seating Treatment (RCT) -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-orange-100 text-orange-700 flex items-center justify-center mb-3">
+              <i data-lucide="clock" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Single Seating Treatment (RCT)</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Fast, advanced single-visit root canal therapy using automated rotary motors and digital apex locators for rapid pain relief in just one appointment.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Single Seating Treatment (RCT)')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Single-Sitting RCT</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 7: Composite Restoration -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-3">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Composite Restoration</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Tooth-colored aesthetic composite resin fillings that blend invisibly with your natural enamel to fix cavities, tooth chipping, and enamel fractures.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Composite Restoration')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Composite Filling</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 8: Scaling and Oral Prophylaxis -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-700 flex items-center justify-center mb-3">
+              <i data-lucide="droplet" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Scaling & Oral Prophylaxis</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Ultrasonic dental cleaning and enamel polishing to clear stubborn tartar, bacterial plaque, tea/coffee stains, and stop bad breath.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Scaling and Oral Prophylaxis')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Scaling & Cleaning</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 9: Orthodontic Treatment -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center mb-3">
+              <i data-lucide="smile-plus" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Orthodontic Treatment</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Metal braces, aesthetic ceramic brackets, and clear aligners designed to straighten crooked teeth, close gaps, and correct bite misalignment.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Orthodontic Treatment')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Ortho Consult</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 10: All Type Of Extraction -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center mb-3">
+              <i data-lucide="activity" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">All Type Of Extraction</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Gentle, painless simple and surgical extractions for severely broken, non-restorable teeth, milk teeth, and complex impacted third molar wisdom teeth.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('All Type Of Extraction')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Extraction</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 11: Gum Problems -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-pink-100 text-pink-700 flex items-center justify-center mb-3">
+              <i data-lucide="heart-pulse" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-900">Gum Problems</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Specialized periodontal care for bleeding gums, gingivitis, loose teeth, gum recession, pyorrhea, and bad breath to preserve long-term tooth support.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="#book" onclick="prefillService('Gum Problems')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              <span>Book Gum Care</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= TIMINGS & CLINIC SCHEDULE ================= -->
+  <section id="timings" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center space-y-3 mb-10">
+        <span class="px-3 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 uppercase tracking-wider">
+          OPD Schedule
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">
+          Clinic Hours & Consultation Timings
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-600">
+          We operate both morning and evening OPD shifts for patient convenience.
+        </p>
+      </div>
+
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs sm:text-sm">
+            <thead class="bg-brand-900 text-white text-xs uppercase tracking-wider">
+              <tr>
+                <th class="py-3 px-4 font-semibold">Day</th>
+                <th class="py-3 px-4 font-semibold">OPD Consultation Shift</th>
+                <th class="py-3 px-4 font-semibold text-right">Status</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr class="hover:bg-white">
+                <td class="py-3 px-4 font-bold">Monday</td>
+                <td class="py-3 px-4">10:00 AM – 02:00 PM &bull; 05:00 PM – 09:00 PM</td>
+                <td class="py-3 px-4 text-right"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-xs">Open</span></td>
+              </tr>
+              <tr class="hover:bg-white">
+                <td class="py-3 px-4 font-bold">Tuesday</td>
+                <td class="py-3 px-4">10:00 AM – 02:00 PM &bull; 05:00 PM – 09:00 PM</td>
+                <td class="py-3 px-4 text-right"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-xs">Open</span></td>
+              </tr>
+              <tr class="hover:bg-white">
+                <td class="py-3 px-4 font-bold">Wednesday</td>
+                <td class="py-3 px-4">10:00 AM – 02:00 PM &bull; 05:00 PM – 09:00 PM</td>
+                <td class="py-3 px-4 text-right"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-xs">Open</span></td>
+              </tr>
+              <tr class="hover:bg-white">
+                <td class="py-3 px-4 font-bold">Thursday</td>
+                <td class="py-3 px-4">10:00 AM – 02:00 PM &bull; 05:00 PM – 09:00 PM</td>
+                <td class="py-3 px-4 text-right"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-xs">Open</span></td>
+              </tr>
+              <tr class="hover:bg-white">
+                <td class="py-3 px-4 font-bold">Friday</td>
+                <td class="py-3 px-4">10:00 AM – 02:00 PM &bull; 05:00 PM – 09:00 PM</td>
+                <td class="py-3 px-4 text-right"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-xs">Open</span></td>
+              </tr>
+              <tr class="hover:bg-white">
+                <td class="py-3 px-4 font-bold">Saturday</td>
+                <td class="py-3 px-4">10:00 AM – 02:00 PM &bull; 05:00 PM – 09:00 PM</td>
+                <td class="py-3 px-4 text-right"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-xs">Open</span></td>
+              </tr>
+              <tr class="bg-slate-100/60">
+                <td class="py-3 px-4 font-bold text-slate-500">Sunday</td>
+                <td class="py-3 px-4 text-slate-500">Closed (Emergency / Prior Appointment Only)</td>
+                <td class="py-3 px-4 text-right"><span class="px-2 py-0.5 rounded bg-slate-200 text-slate-700 font-medium text-xs">By Appointment</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="mt-6 flex flex-col sm:flex-row items-center justify-between gap-4 p-4 rounded-xl bg-brand-50 border border-brand-200">
+        <div class="flex items-center gap-3">
+          <i data-lucide="phone-call" class="w-5 h-5 text-brand-700"></i>
+          <div>
+            <p class="text-xs font-bold text-brand-900">Have an urgent dental inquiry or toothache?</p>
+            <p class="text-[11px] text-slate-600">Call our direct line for same-day appointment availability.</p>
+          </div>
+        </div>
+        <a href="tel:+919975202188" class="px-4 py-2 rounded-lg bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs whitespace-nowrap">
+          Call +91 99752 02188
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= BOOK APPOINTMENT FORM ================= -->
+  <section id="book" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-md">
+        <div class="text-center space-y-2 mb-8">
+          <span class="px-3 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 uppercase tracking-wider">
+            Quick Appointment Request
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">
+            Book Your Dental Visit
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-600">
+            Fill in your details below to schedule an appointment via direct WhatsApp or call.
+          </p>
+        </div>
+
+        <form id="appointmentForm" class="space-y-4">
+          
+          <div>
+            <label class="block text-xs font-bold text-slate-800 mb-1">Patient Full Name *</label>
+            <input type="text" id="patientName" required placeholder="Enter full name" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-1">Phone Number (WhatsApp) *</label>
+              <input type="tel" id="patientPhone" required placeholder="e.g. 9975202188" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-1">Select Treatment *</label>
+              <select id="patientService" required class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
+                <option value="Computerized X-ray">Computerized X-ray</option>
+                <option value="Dental Implants">Dental Implants</option>
+                <option value="Complete Denture">Complete Denture</option>
+                <option value="Fix Partial Denture">Fix Partial Denture</option>
+                <option value="Root Canal Treatment (RCT)">Root Canal Treatment (RCT)</option>
+                <option value="Single Seating Treatment (RCT)">Single Seating Treatment (RCT)</option>
+                <option value="Composite Restoration">Composite Restoration</option>
+                <option value="Scaling and Oral Prophylaxis">Scaling and Oral Prophylaxis</option>
+                <option value="Orthodontic Treatment">Orthodontic Treatment</option>
+                <option value="All Type Of Extraction">All Type Of Extraction</option>
+                <option value="Gum Problems">Gum Problems</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-1">Preferred Date</label>
+              <input type="date" id="patientDate" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-1">Preferred Time Shift</label>
+              <select id="patientShift" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
+                <option value="Morning Shift (10:00 AM - 02:00 PM)">Morning Shift (10:00 AM - 02:00 PM)</option>
+                <option value="Evening Shift (05:00 PM - 09:00 PM)">Evening Shift (05:00 PM - 09:00 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-800 mb-1">Any specific dental problem or notes? (Optional)</label>
+            <textarea id="patientNotes" rows="2" placeholder="e.g. Pain in lower left molar when chewing cold food..." class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+          </div>
+
+          <div class="pt-2 flex flex-col sm:flex-row gap-3">
+            <button type="submit" class="flex-1 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md transition-all flex items-center justify-center gap-2">
+              <i data-lucide="message-square" class="w-4 h-4"></i>
+              <span>Send Request via WhatsApp</span>
+            </button>
+            <a href="tel:+919975202188" class="py-3.5 px-6 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-md transition-all flex items-center justify-center gap-2">
+              <i data-lucide="phone-call" class="w-4 h-4"></i>
+              <span>Direct Call</span>
+            </a>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= LOCATION & GOOGLE MAPS ================= -->
+  <section id="location" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        
+        <!-- Address & Contact Info -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 uppercase tracking-wider">
+              Visit Us
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">
+              Clinic Location & Contact
+            </h2>
+            <p class="text-xs sm:text-sm text-slate-600 mt-1">
+              Easily accessible on Saswad Road with convenient parking and prominent landmarks.
+            </p>
+          </div>
+
+          <div class="space-y-4 text-xs sm:text-sm">
+            
+            <div class="flex items-start gap-3 p-4 rounded-xl bg-slate-50 border border-slate-200">
+              <div class="w-9 h-9 rounded-lg bg-brand-100 text-brand-700 flex items-center justify-center shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div class="space-y-2">
+                <div>
+                  <p class="font-bold text-slate-900 text-xs text-brand-700 uppercase tracking-wide">Clinic 2 (Main Centre - Saswad Rd)</p>
+                  <p class="text-slate-600 text-xs mt-0.5 leading-relaxed">
+                    Shop No. 03, Near Purandar Medical, Near Angraj Dhaba, Next to Khadimachin Chowk, Saswad Road, Kondhwa, Pune - 411048
+                  </p>
+                </div>
+                <div class="pt-2 border-t border-slate-200">
+                  <p class="font-bold text-slate-900 text-xs text-slate-700 uppercase tracking-wide">Clinic 1 (Katraj Branch)</p>
+                  <p class="text-slate-600 text-xs mt-0.5 leading-relaxed">
+                    Swami Samarth Nagar, Gokul Nagar Chowk, Katraj-Kondhwa Road, Katraj, Pune - 411046
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 rounded-xl bg-slate-50 border border-slate-200">
+              <div class="w-9 h-9 rounded-lg bg-brand-100 text-brand-700 flex items-center justify-center shrink-0">
+                <i data-lucide="phone" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="font-bold text-slate-900">Phone Contact</p>
+                <a href="tel:+919975202188" class="text-brand-600 hover:underline font-semibold block text-xs mt-0.5">
+                  +91 99752 02188
+                </a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 rounded-xl bg-emerald-50 border border-emerald-200">
+              <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="font-bold text-slate-900">WhatsApp Appointment</p>
+                <a href="https://wa.me/919975202188" target="_blank" class="text-emerald-700 hover:underline font-semibold block text-xs mt-0.5">
+                  Chat directly on +91 99752 02188
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <a href="#book" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs shadow-md transition-all">
+            <i data-lucide="calendar" class="w-4 h-4"></i>
+            <span>Schedule Consultation</span>
+          </a>
+
+        </div>
+
+        <!-- Google Map Embed -->
+        <div class="lg:col-span-7">
+          <div class="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md">
+            <div class="p-3 bg-slate-100 border-b border-slate-200 flex justify-between items-center text-xs font-semibold text-slate-700">
+              <span class="flex items-center gap-1.5">
+                <i data-lucide="map" class="w-4 h-4 text-brand-600"></i>
+                Location: Saswad Road, Yewalewadi / Kondhwa Budruk
+              </span>
+            </div>
+            <iframe 
+              src="https://maps.google.com/maps?q=18.4475155,73.8926414&z=16&output=embed"
+              class="w-full h-80 sm:h-96 border-0" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Minakshi Multispeciality Dental Clinic Location Map">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-10 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-4 pb-6 border-b border-slate-800">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-brand-600 text-white flex items-center justify-center font-bold">
+            M
+          </div>
+          <div>
+            <p class="font-bold text-white text-sm">Minakshi Multispeciality Dental Clinic</p>
+            <p class="text-[11px] text-slate-400">Shop No. 03, Saswad Road, Kondhwa, Pune - 411048</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 text-xs">
+          <a href="#about" class="hover:text-white">About</a>
+          <a href="#doctors" class="hover:text-white">Specialists</a>
+          <a href="#gallery" class="hover:text-white">Photos</a>
+          <a href="#services" class="hover:text-white">Services</a>
+          <a href="#timings" class="hover:text-white">Timings</a>
+          <a href="#location" class="hover:text-white">Location</a>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-2 text-[11px] text-slate-500">
+        <p>&copy; 2026 Minakshi Multispeciality Dental Clinic & Implant Centre. All rights reserved.</p>
+        <p>Saswad Road, Kondhwa Budruk / Yewalewadi, Pune | +91 99752 02188</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING STICKY ACTION BAR (MOBILE) ================= -->
+  <div class="fixed bottom-0 inset-x-0 z-40 bg-white border-t border-slate-200 py-2.5 px-4 flex sm:hidden items-center justify-between gap-3 shadow-lg">
+    <a href="tel:+919975202188" class="flex-1 py-2.5 rounded-xl bg-brand-600 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm">
+      <i data-lucide="phone" class="w-4 h-4"></i>
+      <span>Call Clinic</span>
+    </a>
+    <a href="https://wa.me/919975202188?text=Hello%20Minakshi%20Dental%20Clinic,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="flex-1 py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm">
+      <i data-lucide="message-square" class="w-4 h-4"></i>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

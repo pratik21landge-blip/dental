@@ -1,0 +1,19 @@
+/* Minakshi Multispeciality Dental Clinic Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #334155;
+  background-color: #f8fafc;
+}
+
+/* Padding to avoid floating mobile action bar overlap on phones */
+@media (max-width: 639px) {
+  body {
+    padding-bottom: 65px;
+  }
+}
